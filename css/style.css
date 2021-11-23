@@ -68,7 +68,7 @@ body {
 }
 
 .golden a:hover {
-  color: #fed136;
+  color: white;
 }
 
 .navigation {
@@ -105,7 +105,7 @@ body {
 
 .nav-list a:hover {
   text-decoration: none;
-  color: white;
+  color: #fed136;
 }
 
 /*splash*/
