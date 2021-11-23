@@ -1,4 +1,56 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat:wght@200;600&display=swap');
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    color: #2c2c54;
+    line-height: 1.7;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: auto;
+    padding: 0 20px;
+    margin: 30px 80px;
+    display: flex;
+}
+
+/*Navigation*/
+
+.navigation {
+    padding: 12px 0;
+    border: solid 1px red;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Inconsolata',monospace;
+    border: solid 1px yellow;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 36px 0 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px blue;
+}
+
+.navigation a:hover {
+    color: #33d9b2;
+}
+
+.navigation ul ul li a:hover {
+    color: #33d9b2;
 }
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
