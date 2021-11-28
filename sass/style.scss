@@ -73,7 +73,7 @@ body {
 }
 
 .navigation {
-  background: url('/Users/kacper/Desktop/git-project/images/Background Image.png');
+  background: url('/images/BackgroundImage.png');
   padding: 12px 0;
   background-color: rgba(0, 0, 0, 0.4);
   background-repeat: no-repeat;
@@ -182,6 +182,7 @@ body {
   text-align: justify;
   word-spacing: 3px;
   padding: 10px;
+  min-width: 300px;
 }
 
 .wraper-box p {
@@ -215,11 +216,158 @@ body {
   border: solid #fed136;
 }
 
-.services two {
-  background-color: red;
+/*portfolio*/
+   
+.wraper-image-first {
+  background: url('https://i.postimg.cc/Y9sp6w9Z/Image-1.png');
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  display:flex;
+  align-items: flex-end;
+  padding:0;
+}
+
+.wraper-image-second {
+  background: url('https://i.postimg.cc/2S7L4Vft/Image-2.png');
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  display:flex;
+  align-items: flex-end;
+  padding:0;
+}
+
+.wraper-image-third {
+  background: url('https://i.postimg.cc/RVrWycS8/Image-4.png');
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  display:flex;
+  align-items: flex-end;
+  padding:0;
+}
+
+.wraper-image-fourth {
+  background: url('https://i.postimg.cc/3wbRBGft/Image-5.png');
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  display:flex;
+  align-items: flex-end;
+  padding:0;
+}
+
+.wraper-image-fifth {
+  background: url('https://i.postimg.cc/k5MsS0Lx/pexels-kaboompics-com-6444.jpg');
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  display:flex;
+  align-items: flex-end;
+  padding:0;  
+}
+
+.wraper-image-six {
+  background: url('https://i.postimg.cc/05SQYbYC/Image6.png');
+  padding: 12px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:auto;
+  height:300px;
+  display:flex;
+  align-items: flex-end;
+  padding:0;
+}
+.wraper-image-box {
+    background: white;
+    flex:6;
+    text-align:center;
+}
+
+.image-subtitle {
+    font-family: 'Hurricane', cursive;
+}
+
+.image-title {
+    margin-bottom: 0;
+}
+
+.portfolio {
+    background: #F7F7F7;
+    margin:0;
+    padding: 50px 0;
+}
+    
+/*footer*/
+
+.footer-container {
+  width: auto;
+  padding: 0 20px;
+  margin: 30px 80px;
+  display: flex;
+}
+
+.footer-text {
+  font-family: 'Hurricane', cursive;
+  font-size: 20px;
+  display: flex;
+  color:black;
+  padding:20px;
+  flex:4;
+}
+
+.social-media {
+    flex:8;
+}
+
+.social-media ul {
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+  margin: 0;
+  justify-content: flex-start;
+  width: auto;
+  color:black;
+  text-align:center;
+  margin-left: 40px;
+}
+
+.social-media i {
+    font-size: 30px;
+    background: black;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    border-radius: 50%; 
+    margin: 10px;
 }
 
 @media (max-width: 767px) {
+  
   .navigation {
     flex-direction: column;
   }
@@ -227,6 +375,7 @@ body {
     font-size: 10px;
     padding: 5px;
     margin: 30px 30px;
+    flex-direction: column;
   }
   .nav-list a {
     padding: 5px;
@@ -235,17 +384,50 @@ body {
   .splash {
     margin-top: 20px;
   }
+  
   .page-title {
     font-size: 50px;
   }
+  
   .page-subtitle {
     font-size: 20px;
   }
+  
   .services {
     flex-direction: column;
     margin: 30px 40px;
   }
+  
   .wraper {
     flex-direction: column;
   }
+  
+  /*footer*/
+  
+ .footer-container {
+    flex-direction: column-reverse;
+    
+ }
+     
+ .footer-page {
+     flex-direction: column;
+  }
+  
+  .nav-list ul {
+    justify-content: center;
+  }
+  
+  .splash {
+      min-height: 400px;
+  }
+  
+  .social-media ul {
+      justify-content: center;
+      margin-left: 0px;
+  }
+  
+  .footer-text {
+      justify-content: center;
+  }
+
 }
